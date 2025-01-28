@@ -1,6 +1,6 @@
 export default {
     build: {
-        minify: false,
+        // minify: false,
         sourcemap: true,
         target: 'esnext',
     },
@@ -9,4 +9,5 @@ export default {
             target: 'esnext'
         }
     },
+    base: "/pixelboard/",
   }
