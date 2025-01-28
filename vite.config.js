@@ -9,5 +9,4 @@ export default {
             target: 'esnext'
         }
     },
-    base : '/pixelboard/'
   }
