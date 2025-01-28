@@ -2,11 +2,12 @@ export default {
     build: {
         minify: false,
         sourcemap: true,
-        target: 'esnext'
+        target: 'esnext',
     },
     optimizeDeps: {
         esbuildOptions: {
-          target: 'esnext'
+            target: 'esnext'
         }
-      },
+    },
+    base : '/pixelboard/'
   }
