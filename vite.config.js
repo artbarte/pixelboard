@@ -3,7 +3,6 @@ export default {
         minify: false,
         sourcemap: true,
         target: 'esnext'
-
     },
     optimizeDeps: {
         esbuildOptions: {
